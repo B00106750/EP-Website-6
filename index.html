@@ -2,90 +2,85 @@
 <html>
 <head>
 <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Home</title>
 <link href="css/style.css" rel="stylesheet" type="text/css">
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<link href="css/bootstrap-4.3.1.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-<div class="header">
-	<h1><img src="images/itb.jpg" alt="itblogo"/>THE STORY OF ITB</h1>
-</div>
-	
-<div class="nav">
-<ul>
-	<li><a href="index.html">Home</a></li>
-	<li><a href="#">Ecological Timeline</a>
-	    <ul>
-		   <li><a href="ag.html">Agricultural Background</a></li>
-		   <li><a href="ecc.html">Ecological Campus</a></li>	
-		</ul>
-	</li>
-	<li><a href="#">Timeline</a>
-	    <ul>
-			<li><a href="1800.html">1800's</a></li>
-			<li><a href="1999.html">1999</a></li>
-			<li><a href="2000.html">2000's</a></li>
-			<li><a href="2018.html">2018</a></li>
-		</ul> 
-	</li>
-	<li><a href="tud.html">TU4</a></li>
-</ul>	
-</div>	
-
-<div class="main">
-    <img src="images/itb-image.jpg" alt="itb" style="width:100%"> 
-</div>
-
-<h2 class="time">Timeline</h2>
-		
-    <div class="col5">
-        <a href="1800.html"><h3>1800's</h3>
-        <img src="images/barony.jpg" alt="website" width="200px" height="225px"/>
-			<p>The history of the area before the college.</p></a>
-    </div>
-	
-	 <div class="col5">
-        <a href="1999.html"><h3>1999</h3>
-        <img src="images/ITBMap2015 - Copy.jpg" alt="website" width="200px" height="225px"/>
-			<p>The opening and first days of itb.</p></a>
-    </div>
-	
-	<div class="col5">
-        <a href="2000.html"><h3>2000's</h3>
-        <img src="images/2000site(1).png" alt="website" width="200px" height="225px"/>
-			<p>The campus expanding.</p></a>
-    </div>
-	
-	<div class="col5">
-        <a href="2018.html"><h3>2018</h3>
-        <img src="images/ITB-1000x500.jpg" alt="website" width="200px" height="225px"/>
-			<p>The college today</p></a>
-    </div>
-	
-<div class="eco">
-<h2>Ecological Timeline</h2>
-	<p>The ITB area is a site with an agricultural background. Today we can see how students participate to create a more ecological campus.</p>
-	<img src="images/hort.jpg" alt="eco"/>
-</div>	
-	
-<div class="tud">
-<h2>TU4</h2>
-  <div class="col3">
-	<p class="thefirst">The future of ITB, DIT and ITT. Understanding what TU4 is and how it will impact the tree colleges. What changes it will bring and what will stay the same.</p>
-	</div>
-	
-	<div class="col3">
-	<p class="thesecond">Creating a Technological University for Dublin</p>
-	</div>
-	
-	<div class="col3">
-		<div class="dit"><img src="images/DIT.jpg" alt="DIT" width="30%"/></div>
-		<div class="itb"><img src="images/itb.PNG" alt="ITB" width="30%"/></div>
-		<div class="itt"><img src="images/itt.png" alt="ITT" width="30%"/></div>	
-	</div>
-</div>
-
-<footer>@Krzysztof Lancucki B00106750</footer>	
+<nav>
+<label for="toggle">&#9776</label>
+  <input type="checkbox" id="toggle"/>
+  <ul class="navlist">
+    <li class="navlistitem2"><a class="home" href="index.html">Home</a></li>
+    <li class="navlistitem"><a href="map.html">Map</a></li>
+    <li class="navlistitem">Gallery
+      <ul>
+        <li class="navlistitem1"><a href="photos.html">Photos</a></li>
+        <li class="navlistitem1"><a href="videos.html">Video</a></li>
+        <li class="navlistitem1"><a href="history.html">History</a></li>
+      </ul>
+    </li>
+    <li class="navlistitem"><a href="info.html">Info</a></li>
+    <li class="navlistitem"><a href="tickets.html">Tickets</a></li>
+    <li class="navlistitem"><a href="line.html">Line Up</a></li>
+  </ul>
+</nav>
+<header><img src="images/logo.jpg" alt="logo"/></header>
+<div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel" style="background-color: grey">
+	  <ol class="carousel-indicators">
+	    <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+	    <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+	    <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+		<li data-target="#carouselExampleIndicators1" data-slide-to="3"></li>
+		<li data-target="#carouselExampleIndicators1" data-slide-to="4"></li>
+		<li data-target="#carouselExampleIndicators1" data-slide-to="5"></li>
+		<li data-target="#carouselExampleIndicators1" data-slide-to="6"></li>
+		<li data-target="#carouselExampleIndicators1" data-slide-to="7"></li>
+  </ol>
+	  <div class="carousel-inner" role="listbox">
+	    <div class="carousel-item active"> <a href="info.html"><img class="d-block mx-auto" src="images/main1.jpg" width="100%" alt="First slide"></a>
+	      <div class="carousel-caption">
+	        <h5>Info</h5>
+          </div>
+        </div>
+	    <div class="carousel-item"> <a href="line.html"><img class="d-block mx-auto" src="images/carousel1.jpg" width="100%" alt="Second slide"></a>
+	      <div class="carousel-caption">
+	        <h5>Line up</h5>
+          </div>
+        </div>
+	    <div class="carousel-item"> <a href="tickets.html"><img class="d-block mx-auto" src="images/soldout.jpg" width="100%" alt="Third slide"></a>
+	      <div class="carousel-caption">
+	        <h5>Tickets</h5>
+          </div>
+        </div>
+		  <div class="carousel-item"> <a href="photos.html"><img class="d-block mx-auto" src="images/carousel2.jpg" width="100%" alt="Third slide"></a>
+	      <div class="carousel-caption">
+	        <h5>Photos</h5>
+          </div>
+        </div>
+		<div class="carousel-item"> <a href="videos.html"><img class="d-block mx-auto" src="images/carousel3.PNG" width="100%" alt="Third slide"></a>
+	      <div class="carousel-caption">
+	        <h5>Videos</h5>
+          </div>
+        </div>
+		<div class="carousel-item"> <a href="history.html"><img class="d-block mx-auto" src="images/history1.jpg" width="100%" alt="Third slide"></a>
+	      <div class="carousel-caption">
+	        <h5>History</h5>
+          </div>
+        </div>
+		<div class="carousel-item"> <a href="map.html"><img class="d-block mx-auto" src="images/map 1.png" width="100%" alt="Third slide"></a>
+	      <div class="carousel-caption">
+	        <h5>Map</h5>
+          </div>
+        </div>
+  </div>
+	  <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+<footer>Krzysztof Lancucki Copyright 2019</footer>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap-4.3.1.js"></script>
 </body>
 </html>
